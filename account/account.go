@@ -15,3 +15,7 @@ func NewAccount(owner_ string) *account {
 func PrintAccount(acc account) {
 	fmt.Println("owner : ", acc.owner, " balance : ", acc.balance)
 }
+
+func Adder(a int, b int) {
+	fmt.Println(a + b)
+}
